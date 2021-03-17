@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.medicinealarm" >
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.BIND_CONTROLS.INTERNET" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MedicineAlarm" >
+        <activity android:name=".Settings" >
+        </activity>
+        <activity android:name=".Event_Calendar" />
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".New_Home"
+            android:label="Home" />
+        <activity android:name=".Medicine_Details" />
+        <activity android:name=".User_profile" />
+        <activity
+            android:name=".Medicine"
+            android:label="Medicine Record" />
+        <activity
+            android:name=".bmi"
+            android:label="BMI Calculator" />
+        <activity
+            android:name=".Login"
+            android:label="Medical Alarm" />
+        <activity
+            android:name=".Register"
+            android:label="Medical Alarm" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

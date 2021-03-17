@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Medicine Alarm</string>
+    <string name="search">Search</string>
+    <string name="go">Go</string>
+    <string-array name="names">
+        <item>1 Time a Day </item>
+        <item>3 Times a Day </item>
+        <item>2 Times a Day </item>
+        <item>1 Time a Week </item>
+    </string-array>
+</resources>

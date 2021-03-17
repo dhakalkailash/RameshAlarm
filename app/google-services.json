@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "531271625414",
+    "project_id": "medical-alarm-b7a9b",
+    "storage_bucket": "medical-alarm-b7a9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531271625414:android:033ddd0a1db6042e1f85c7",
+        "android_client_info": {
+          "package_name": "com.example.medicinealarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531271625414-kbo6abc947i6vql0h2nue1n9hdmlc43o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8kVcqtij5A_lKFKbv9pd7e_DFlD2d-hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531271625414-kbo6abc947i6vql0h2nue1n9hdmlc43o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
